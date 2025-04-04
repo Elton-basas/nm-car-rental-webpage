@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="BookingForm.css">
+    <title>BOOKING FORM</title>
+</head>
+<body>
+    <div class="background">
+        <div class="booking-form">
+            <h2>BOOK HERE</h2>
+            <form action="https://formspree.io/f/xyzepazn" method="POST">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+
+                <label for="name">Age</label>
+                <input type="number" name="age" id="age" required>
+
+                <label for="name">Email</label>
+                <input type="text" name="email" id="email" required>
+           
+                <label for="phone number">Phone Number</label>
+                <input type="tel" name="tel" id="phone" required>
+
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date" required>
+
+                <label for="days">Days:</label>
+                <input type="number" id="days" name="days" min="1" value="1">
+
+                <label for="car-type">Car</label>
+                <select id="car-type" name="car-type">
+                    <option value="Toyota Vios Black">Toyota Vios Black</option>
+                    <option value="Toyota Vios Red Mica Metallic">Toyota Vios Red Mica Metallic</option>
+                    <option value="Toyota Vios Blackishred">Toyota Vios Blackishred</option>
+                    <option value="Toyota Vios Green">Toyota Vios Green</option>
+                    <option value="Toyota Vios Blue">Toyota Vios Blue</option>
+                    <option value="Mitsubishi Xpander Red">Mitsubishi Xpander Red</option>
+                    <option value="Mitsubishi Xpander Bronze Metallic">Mitsubishi Xpander Bronze Metallic</option>
+                </select>
+                
+           
+                <button type="submit">BOOK NOW</button>
+            </form>
+            <a href="Booking.html" style="display: block; text-align: center; margin-top: 20px;">Go Back Home</a>
+        </div>
+    </div>
+    
+    <script href="BookingForm.js"></script>
+</body>
+</html>
